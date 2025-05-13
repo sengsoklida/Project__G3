@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="images/pngwing.com.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="css/styles.css">
+      <!-- font awesome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- fonts -->
+      <link rel = "stylesheet" href = "font/fonts.css">
+      <!-- normalize css -->
+      <link rel = "stylesheet" href = "css/normalize.css">
+      <!-- custom css -->
+      <link rel = "stylesheet" href = "css/utility.css">
+      <link rel = "stylesheet" href = "css/style.css">
+      <link rel = "stylesheet" href = "css/responsive.css">
+
+      <title>SiemReap Travel</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <!-- navbar  -->
+      <nav class = "navbar">
+         <div class = "container flex">
+             <a href = "index.html" class = "site-brand">
+                SiemReap<span>Travel</span>
+             </a>
+
+             <button type = "button" id = "navbar-show-btn" class = "flex">
+                 <i class = "fas fa-bars"></i>
+             </button>
+             <div id = "navbar-collapse">
+                 <button type = "button" id = "navbar-close-btn" class = "flex">
+                     <i class = "fas fa-times"></i>
+                 </button>
+                 <ul class = "navbar-nav">
+                     <li class = "nav-item">
+                         <a href = "index.html" class = "nav-link">Home</a>
+                     </li>
+                     <li class = "nav-item">
+                         <a href = "tour.html" class = "nav-link">Tour</a>
+                     </li>
+                     <li class = "nav-item">
+                         <a href = "about.html" class = "nav-link">About</a>
+                     </li>
+                     <li class = "nav-item">
+                         <a href = "contact.html" class = "nav-link">Contact</a>
+                     </li>
+                     <li class = "nav-item">
+                        <a href = "login.html" class = "nav-link">Sign in</a>
+                     </li>
+                     <li class = "nav-item">
+                        <a class="wishlist-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                            </svg>
+                            <span>0</span>
+                        </a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+         
+     </nav>
+     <!-- end nav -->
+     <!-- header -->
+     <header class = "flex header-sm">
+        <div class = "container">
+            <div class = "header-title">
+                <h1>Tour</h1>
+                <p>Enjoy With Your Trip</p>
+            </div>
+            <div class="box">
+                <input type="text" placeholder="Search...">
+                <a href="#">
+                    <i class="ri-search-2-line"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <!-- Popular Places section -->
+    <section id = "blog" class = "py-4">
+        <div class = "container">
+            <div class = "title-wrap">
+                <h2 class = "sm-title">read these blog for information</h2>
+                <h3 class = "lg-title">Popular Places</h3>
+            </div>
+
+            <div class = "blog-row">
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/angkor-wat-temple-desktop.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Angkor Wat</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $70.20</h3>
+                        <a href = "angkor wat.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/beng mealea.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Boeung Mealea</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $50.50</h3>
+                        <a href = "Boeung mealea.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/ta promm.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Ta Prom</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $66.40</h3>
+                        <a href = "Ta prom.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/banteay kdey.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Banteay Kdey</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $60.00</h3>
+                        <a href = "banteay kdey.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/may bon.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:May Bon</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $65.00</h3>
+                        <a href = "May bon.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/pres khan.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Pres Khan</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $55.00</h3>
+                        <a href = "Pres Khan.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/Siem-Reap-Pub-Street.png" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Pub Street</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $55.55</h3>
+                        <a href = "Pub street.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/phnom kulen.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Phnom Kulen</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $80.20</h3>
+                        <a href = "Phnom kulen.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/kbal spean.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Kbal Spean</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $60.50</h3>
+                        <a href = "Kbal spean.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/kompungpluk.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Kompung Pluk</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $46.70</h3>
+                        <a href = "Kompung phluk.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/Tonle sap.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Tonle Sap</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $60.00</h3>
+                        <a href = "Tonle sap.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/bike.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Quad Bike Ride</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $40.00</h3>
+                        <a href = "Quad bike ride.html" class = "btn-1">Book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of Popular Places section -->
+     <!-- footer -->
+     <footer class = "py-4">
+         <div class = "container footer-row">
+             <div class = "footer-item">
+                 <a href = "index.html" class = "site-brand">
+                     SiemReap<span>Travel</span>
+                 </a>
+                 <p class = "text">© រក្សាសិទ្ធគ្រប់យ៉ាងដោយ SiemReap Travel ឆ្នាំ២០២៤​ <br>
+                                    គោលការណ៍ភាពឯកជន I Privacy Policy <br>
+                                    អាសយដ្ឋាន​ <br>
+                                    ភូមិមិត្តភាព សង្កាត់ប៉ោយប៉ែត <br>ក្រុងប៉ោយប៉ែត ខេត្តបន្ទាយមានជ័យ</p>
+                 <p class="text2">© រក្សាសិទ្ធគ្រប់យ៉ាងដោយ SiemReap Travel ឆ្នាំ២០២៤</p>
+             </div>
+
+             <div class = "footer-item">
+                 <h2>Follow us on: </h2>
+                 <ul class = "social-links">
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-facebook-f"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-instagram"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-twitter"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-pinterest"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-google-plus"></i>
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+
+             <div class = "footer-item">
+                 <h2>Popular Places:</h2>
+                 <ul>
+                     <li><a href = "#">Siem Reap:Angkor Wat</a></li>
+                     <li><a href = "#">Siem Reap:Boeung Mealea</a></li>
+                     <li><a href = "#">Siem Reap:Ta Prom</a></li>
+                     <li><a href = "#">Siem Reap:Pub Street</a></li>
+                     <li><a href = "#">Siem Reap:Phnom Kulen</a></li>
+                     <li><a href = "#">Siem Reap:Kbal Spean</a></li>
+                 </ul>
+             </div>
+
+             <div class = "subscribe-form footer-item">
+                 <h2>Subscribe for Newsletter!</h2>
+                 <form class = "flex">
+                     <input type = "email" placeholder="Enter Email" class = "form-control">
+                     <input type = "submit" class = "btn" value = "Subscribe">
+                 </form>
+             </div>
+         </div>
+     </footer>
+     <!-- end of footer -->
+      <!--=============== SWIPER JS ===============-->
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.main.js"></script>
+      <script src="js/swiper-11.2.4.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.main.js"></script>
+      <!--=============== MAIN JS ===============-->
+      <script src="js/main.js"></script>
+   </body>
+</html>

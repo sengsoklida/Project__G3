@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="images/pngwing.com.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="css/styles.css">
+      <!-- font awesome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- fonts -->
+      <link rel = "stylesheet" href = "font/fonts.css">
+      <!-- normalize css -->
+      <link rel = "stylesheet" href = "css/normalize.css">
+      <!-- custom css -->
+      <link rel = "stylesheet" href = "css/utility.css">
+      <link rel = "stylesheet" href = "css/style.css">
+      <link rel = "stylesheet" href = "css/responsive.css">
+
+      <title>SiemReap Travel</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <!-- navbar  -->
+      <nav class = "navbar">
+         <div class = "container flex">
+             <a href = "index.html" class = "site-brand">
+                SiemReap<span>Travel</span>
+             </a>
+
+             <button type = "button" id = "navbar-show-btn" class = "flex">
+                 <i class = "fas fa-bars"></i>
+             </button>
+             <div id = "navbar-collapse">
+                 <button type = "button" id = "navbar-close-btn" class = "flex">
+                     <i class = "fas fa-times"></i>
+                 </button>
+                 <ul class = "navbar-nav">
+                     <li class = "nav-item">
+                         <a href = "index.html" class = "nav-link">Home</a>
+                     </li>
+                     <li class = "nav-item">
+                         <a href = "tour.html" class = "nav-link">Tour</a>
+                     </li>
+                     <li class = "nav-item">
+                         <a href = "about.html" class = "nav-link">About</a>
+                     </li>
+                     <li class = "nav-item">
+                         <a href = "contact.html" class = "nav-link">Contact</a>
+                     </li>
+                     <li class = "nav-item">
+                        <a href = "login.html" class = "nav-link">Sign in</a>
+                     </li>
+                     <li class = "nav-item">
+                        <a class="wishlist-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                            </svg>
+                            <span>0</span>
+                        </a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+         
+     </nav>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home">
+            <div class="home__Swiper Swiper">
+               <div class="swiper-wrapper">
+                  <article class="home__article swiper-slide">
+                     <div class="home__data container">
+                        <h3 class="home__subtitle" data-swiper-parallax="500">SiemReap Travel</h3>
+                        <h1 class="home__title" data-swiper-parallax="400">ប្រាសាទ អង្គរវត្ត</h1>
+
+                        <a href="#" class="home__button" data-swiper-parallax="300">
+                           ព័ត៍មានបន្ថែម <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                        <div class="contact">
+                            <ul class = "social-links-contact">
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <p class="ph"><i class="ri-phone-fill"></i>089 743 330</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            </div>
+                     </div>
+
+                     <img src="images/angkor-wat-temple-desktop.jpg" alt="image" class="home__img" data-swiper-parallax="-300">
+
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <div class="home__data container">
+                        <h3 class="home__subtitle" data-swiper-parallax="500">SiemReap Travel</h3>
+                        <h1 class="home__title" data-swiper-parallax="400">ប្រាសាទ បន្ទាយក្តី</h1>
+
+                        <a href="#" class="home__button" data-swiper-parallax="300">
+                            ព័ត៍មានបន្ថែម <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                        <div class="contact">
+                        <ul class = "social-links-contact">
+                            <li>
+                                <a href = "#">
+                                    <i class = "fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#">
+                                    <i class = "fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#">
+                                    <i class = "fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#">
+                                    <p class="ph"><i class="ri-phone-fill"></i>089 743 330</p>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        </div>
+                     
+                    </div>
+                     
+                     <img src="images/banteay kdey.jpg" alt="image" class="home__img" data-swiper-parallax="-300">
+                     
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <div class="home__data container">
+                        <h3 class="home__subtitle" data-swiper-parallax="500">SiemReap Travel</h3>
+                        <h1 class="home__title" data-swiper-parallax="400">ប្រាសាទ មេបុណ្យ</h1>
+
+                        <a href="#" class="home__button" data-swiper-parallax="300">
+                            ព័ត៍មានបន្ថែម <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                        <div class="contact">
+                            <ul class = "social-links-contact">
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <p class="ph"><i class="ri-phone-fill"></i>089 743 330</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                     </div>
+
+                     <img src="images/may bon.jpg" alt="image" class="home__img" data-swiper-parallax="-300">
+                     
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <div class="home__data container">
+                        <h3 class="home__subtitle" data-swiper-parallax="500">SiemReap Travel</h3>
+                        <h1 class="home__title" data-swiper-parallax="400">ប្រាសាទ​ តាព្រហ្ម</h1>
+
+                        <a href="#" class="home__button" data-swiper-parallax="300">
+                            ព័ត៍មានបន្ថែម <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                        <div class="contact">
+                            <ul class = "social-links-contact">
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <p class="ph"><i class="ri-phone-fill"></i>089 743 330</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            </div>
+                     </div>
+
+                     <img src="images/ta promm.jpg" class="home__img" data-swiper-parallax="-300">
+                     
+                  </article>
+               </div>
+            </div>
+
+            <div class="home__content">
+               <!-- Pagintion -->
+               <div class="swiper-pagination"></div>
+
+               <!-- Navigation buttons -->
+                <div class="swiper-navigation">
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                  </div>
+                  <div class="swiper-button-next">
+                     <i id="clicker" class="ri-arrow-right-s-line"></i>
+                  </div>
+                </div>
+            </div>
+         </section>
+      </main>
+      <!-- featured section -->
+      <section id = "featured" class = "py-4">
+         <div class = "container">
+             <div class = "title-wrap">
+                 <span class = "sm-title">know about some places before your travel</span>
+                 <h2 class = "lg-title">featured places</h2>
+             </div>
+
+             <div class = "featured-row">
+                 <div class = "featured-item my-2 shadow">
+                     <img src = "images/angkor-wat-temple-desktop.jpg">
+                     <div class = "featured-item-content">
+                         <span>
+                             <i class = "fas fa-map-marker-alt"></i>
+                             ប្រាសាទ អង្គរវត្ត
+                         </span>
+                         <div>
+                             <p class = "text">ប្រាសាទអង្គរវត្តគឺជាស្ថាបត្យកម្មដ៏កំពូលនៃអច្ឆរិយៈវត្ថុរបស់ពិភពលោកដែលត្រូវបានសាងសង់ឡើងក្នុងស.វទី១២
+                                ដោយព្រះបាទសូរ្យវរ្ម័នទី២ដែលជាព្រះមហាក្សត្រនាសម័យកាលចក្រភពខ្មែរ។
+                                 <a href="https://km.wikipedia.org/wiki/%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%B6%E1%9E%9F%E1%9E%B6%E1%9E%91_%E1%9E%A2%E1%9E%84%E1%9F%92%E1%9E%82%E1%9E%9A%E1%9E%9C%E1%9E%8F%E1%9F%92%E1%9E%8F">
+                                    <i class="ri-git-repository-fill">ព័ត៍មានលម្អិត</i>
+                                 </a>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class = "featured-item my-2 shadow">
+                     <img src = "images/banteay kdey.jpg">
+                     <div class = "featured-item-content">
+                         <span>
+                             <i class = "fas fa-map-marker-alt"></i>
+                             ប្រាសាទ បន្ទាយក្តី
+                         </span>
+                         <div>
+                             <p class = "text">ប្រាសាទបន្ទាយក្តីមានទីតាំងស្ថិតនៅជាប់នឹងប្រាសាទតាព្រហ្មជ្រុងអាគ្នេយ៍ក្នុងភូមិស្រះស្រង់ខាងត្បូង។​ប្រាសាទនេះត្រូវបានកសាងឡើងនៅដើមសតវត្សរ៍ទី១៣ដោយព្រះបាទជ័យវរ្ម័នទី៧។    
+                                <a href="https://km.wikipedia.org/wiki/%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%B6%E1%9E%9F%E1%9E%B6%E1%9E%91%E1%9E%94%E1%9E%93%E1%9F%92%E1%9E%91%E1%9E%B6%E1%9E%99%E1%9E%80%E1%9F%92%E1%9E%8F%E1%9E%B8">
+                                    <br><i class="ri-git-repository-fill">ព័ត៍មានលម្អិត</i>
+                                 </a>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class = "featured-item my-2 shadow">
+                     <img src = "images/may bon.jpg">
+                     <div class = "featured-item-content">
+                         <span>
+                             <i class = "fas fa-map-marker-alt"></i>
+                             ប្រាសាទ មេបុណ្យ
+                         </span>
+                         <div>
+                             <p class = "text">ប្រាសាទមេបុណ្យមានទីតាំងស្ថិតនៅចំកណ្តាលបារាយណ៍ខាងកើតចំងាយប្រហែល៥០០ម៉ែត្រពីប្រាសាទប្រែរូប។ប្រាសាទមេបុណ្យត្រូវបានកសាងឡើងនៅសតវត្សរ៍ទី១០ក្នុងឆ្នាំ៩៥២ដោយព្រះបាទរាជេន្ទ្រវរ្ម័នទី១។
+                                <a href="https://km.wikipedia.org/wiki/%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%B6%E1%9E%9F%E1%9E%B6%E1%9E%91%E1%9E%98%E1%9F%81%E1%9E%94%E1%9E%BB%E1%9E%8E%E1%9F%92%E1%9E%99%E1%9E%81%E1%9E%B6%E1%9E%84%E1%9E%80%E1%9E%BE%E1%9E%8F">
+                                    <i class="ri-git-repository-fill">ព័ត៍មានលម្អិត</i>
+                                 </a>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class = "featured-item my-2 shadow">
+                     <img src = "images/ta promm.jpg">
+                     <div class = "featured-item-content">
+                         <span>
+                             <i class = "fas fa-map-marker-alt"></i>
+                             ប្រាសាទ​ តាព្រហ្ម
+                         </span>
+                         <div>
+                             <p class = "text">ប្រាសាទតាព្រហ្មមានទីតាំងនៅតាមផ្លូវវង់តូចទៅតាមទារជ័យគឺបន្ទាប់ពីប្រាសាទតាកែវប្រហែល១គ.មហើយមានកំពែងបន្ទាយក្តីផ្នែកពាយ័ព្យ។ប្រាសាទនេះកសាងឡើយនៅក្នុងឆ្នាំ១១៨៦នៃគ្រឹស្តរាជដោយព្រះបាទជ័យវរ្ម័នទី៧
+                                <a href="https://km.wikipedia.org/wiki/%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%B6%E1%9E%9F%E1%9E%B6%E1%9E%91%E1%9E%8F%E1%9E%B6%E1%9E%96%E1%9F%92%E1%9E%9A%E1%9E%A0%E1%9F%92%E1%9E%98">
+                                    <i class="ri-git-repository-fill">ព័ត៍មានលម្អិត</i>
+                                 </a>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class = "featured-item my-2 shadow">
+                     <img src = "images/pres khan.jpg">
+                     <div class = "featured-item-content">
+                         <span>
+                             <i class = "fas fa-map-marker-alt"></i>
+                             ប្រាសាទ​ ព្រះខ័ន
+                         </span>
+                         <div>
+                             <p class = "text">ប្រាសាទព្រះខ័នមានរាងបួនជ្រុងទ្រវែងសង់ឡើងនៅរជ្ជកាលព្រះបាទជ័យវរ្ម័នទី៧តែពុំបានសង់រួចនៅក្នុងសម័យព្រះអង្គទេមហាក្សត្រក្រោយៗបានសង់បន្ថែមបន្ដបន្ទាប់នៅគ្រិស្តសតវត្សទី១២-១៣។
+                                <a href="https://km.wikipedia.org/wiki/%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%B6%E1%9E%9F%E1%9E%B6%E1%9E%91%E1%9E%96%E1%9F%92%E1%9E%9A%E1%9F%87%E1%9E%81%E1%9F%90%E1%9E%93">
+                                    <i class="ri-git-repository-fill">ព័ត៍មានលម្អិត</i>
+                                 </a>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class = "featured-item my-2 shadow">
+                     <img src = "images/beng mealea.jpg">
+                     <div class = "featured-item-content">
+                         <span>
+                             <i class = "fas fa-map-marker-alt"></i>
+                             ប្រាសាទ បឹងមាលា
+                         </span>
+                         <div>
+                             <p class = "text">ប្រាសាទបឹងមាលាមានទីតាំងស្ថិតនៅភូមិបេងមាលាស្រុកស្វាយលើខាងកើតជើងភ្នំគូលេនខាងកើតប្រហែល៧៧គីឡូម៉ែត្រពីក្រុងសៀមរាប។សាងសង់នៅចុងសតវត្សរ៍ទី១១និងដើមសតវត្សរ៍ទី១២​ដោយព្រះបាទសូរ្យវរ្ម័នទី២​។
+                                <a href="">
+                                    <i class="ri-git-repository-fill">ព័ត៍មានលម្អិត</i>
+                                 </a>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- end of featured section -->
+    <!-- Popular Places section -->
+    <section id = "blog" class = "py-4">
+        <div class = "container">
+            <div class = "title-wrap">
+                <h2 class = "sm-title">read these blog for information</h2>
+                <h3 class = "lg-title">Popular Places</h3>
+            </div>
+
+            <div class = "blog-row">
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/angkor-wat-temple-desktop.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Angkor Wat</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $70.20</h3>
+                        <a href = "angkor wat.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/beng mealea.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Boeung Mealea</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $50.50</h3>
+                        <a href = "Boeung mealea.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/ta promm.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Ta Prom</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $66.40</h3>
+                        <a href = "Ta prom.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/banteay kdey.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Banteay Kdey</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $60.00</h3>
+                        <a href = "banteay kdey.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/may bon.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:May Bon</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $65.00</h3>
+                        <a href = "May bon.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/pres khan.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Pres Khan</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $55.00</h3>
+                        <a href = "Pres Khan.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/Siem-Reap-Pub-Street.png" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Pub Street</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $55.55</h3>
+                        <a href = "Pub street.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/phnom kulen.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Phnom Kulen</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $80.20</h3>
+                        <a href = "Phnom kulen.html" class = "btn-1">Book now</a>
+                </div>
+
+                <div class = "blog-item my-2 shadow">
+                    <div class = "blog-item-top">
+                        <img src = "images/kbal spean.jpg" alt = "blog">
+                        <button class="favorite-btn"><svg viewBox="0 0 24 24" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+                    <div class = "blog-item-bottom">
+                        <a href = "#">Siem Reap:Kbal Spean</a>
+                        <p class = "text">8 hours Pickup available</p>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                        <h3 class="price">From $60.50</h3>
+                        <a href = "Kbal spean.html" class = "btn-1">Book now</a>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- end of Popular Places section -->
+    <!-- services section -->
+     <section id = "services" class = "py-4">
+         <div class = "container">
+             <div class = "title-wrap">
+                 <span class = "sm-title">know about services that we offer</span>
+                 <h2 class = "lg-title">Our services</h2>
+             </div>
+
+             <div class = "services-row">
+                 <div class = "services-item">
+                     <span class = "services-icon">
+                         <i class = "fas fa-hotel"></i>
+                     </span>
+                     <h3>Sokha Hotel</h3>
+                     <p class = "text">សណ្ឋាគារសុខា ផាលេស សៀមរាប គឺជាសណ្ឋាគារដ៏ប្រណិតគ្មានគូប្រៀប ជាមួយនឹងភាពប្រណិតនៃបន្ទប់ទទួលភ្ញៀវដ៏ប្រណិត រួមផ្សំជាមួយនឹងចម្លាក់ចម្លាក់អង្គរដ៏ប្រណិត និងសិប្បកម្មថ្ម។</p>
+                     <a href = "https://www.sokhahotels.com.kh/palace-siemreap/" class = "btn">Read more</a>
+                 </div>
+
+                 <div class = "services-item">
+                     <span class = "services-icon">
+                         <i class = "fas fa-map-marked-alt"></i>
+                     </span>
+                     <h3>Tour</h3>
+                     <p class = "text">SiemReap Travel គឺជាក្រុមហ៊ុនទេសចរណ៍ដ៏មានទំនុកចិត្តខ្ពស់សុវត្ថិភាពនិង​ សេវាកម្មរហ័សទាន់ចិត្តដល់ភ្ញៀវទេសចរណ៍ជាតិ និងអន្តរជាតិ។</p>
+                     <a href = "blog.html" class = "btn">Read more</a>
+                 </div>
+
+                 <div class = "services-item">
+                     <span class = "services-icon">
+                         <i class = "fas fa-money-bill"></i>
+                     </span>
+                     <h3>Restaurant Mealea Watbo</h3>
+                     <p class = "text">ភោជនីយដ្ឋាននេះមានចំណុចពិសេសចំនួនបួនគឺ កន្លែងទទួលទានអាហារប្រកបដោយផាសុកភាព បន្ទប់សម្រាប់អាំងសាច់ បន្ទប់ទទួលទានអាហារលក្ខណៈឯកជន និងបន្ទប់ស្រា។</p>
+                     <a href = "#" class = "btn">Read more</a>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- end of services section -->
+
+     <!-- testimonials section -->
+     <section id = "testimonials" class = "py-4">
+         <div class = "container">
+             <div class = "title-wrap">
+                 <span class = "sm-title">what our clients say about us</span>
+                 <h2 class = "lg-title">testimonials</h2>
+             </div>
+
+             <div class = "test-row">
+                 <div class = "test-item">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                     <p class = "text">Absolutely great trip packed with so many unique experiences.  Thank you SiemReapTravel, we’ll definitely consider using you for our next holiday.</p>
+                     
+                     <div class = "test-item-info">
+                         <img src = "images/san.jpg" alt = "testimonial">
+                         <div>
+                             <h3>Lat Soksan</h3>
+                             <p class = "text">ប្រធានក្រុម</p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class = "test-item">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                     <p class = "text">មគ្គុទេសក៍ សុខសាន្ត មានចំណេះដឹង និងចិត្តល្អ ទេសភាពស្អាត។ ស្វាដ៏ស្រស់ស្អាត។ ទឹកត្រជាក់ និងកន្សែងត្រជាក់។ សេវាកម្មដ៏អស្ចារ្យ។</p>
+                     <div class = "test-item-info">
+                         <img src = "images/lida.jpg" alt = "testimonial">
+                         <div>
+                             <h3>Seng Soklida</h3>
+                             <p class = "text">អនុប្រធានក្រុម</p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class = "test-item">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                     <p class = "text">Very nice experience, our guide chout was perfect and new everything about the village. The dry season the houses are accessible with the van, and then you get on a bus to the lake to see the sunset
+                        I recommend!</p>
+                     <div class = "test-item-info">
+                         <img src = "images/pheak.jpg" alt = "testimonial">
+                         <div>
+                             <h3>Ly Sopheaktra</h3>
+                             <p class = "text">សមាជិកក្រុម</p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class = "test-item">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    <p class = "text">ដៃគូរបស់ខ្ញុំ និងខ្ញុំមានពេលវេលាដ៏អស្ចារ្យនៅក្នុងថ្នាក់បង្រៀនធ្វើម្ហូបដែលគ្រប់គ្រងដោយសុភាព។ នាងមានចិត្តល្អ ចិត្តល្អ ហើយក៏ជាមេចុងភៅដែរ! ថាមពល​របស់​នាង​គឺ​គួរ​ឱ្យ​ស្រឡាញ់ ដែល​ធ្វើ​ឱ្យ​បទ​ពិសោធ​ទាំង​មូល​មាន​តម្លៃ​ជា​រៀង​រាល់​មួយ​សេន។ ខ្ញុំសូមណែនាំទាំងស្រុង - បូកអ្នកញ៉ាំអាហារដែលអ្នកទើបតែរៀបចំ!</p>
+                    <div class = "test-item-info">
+                        <img src = "images/nha.jpg" alt = "testimonial">
+                        <div>
+                            <h3>Nea SokunPanha</h3>
+                            <p class = "text">សមាជិកក្រុម</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+         </div>
+     </section>
+     <!-- end of testimonials section -->
+
+     <!-- video section -->
+     <section id = "video">
+         <div class = "video-wrapper flex">
+             <video autoplay loop muted src="videos/footer video.mp4">
+             </video>
+             
+         </div>
+     </section>
+     <!-- end of video section -->
+
+     <!-- footer -->
+     <footer class = "py-4">
+         <div class = "container footer-row">
+             <div class = "footer-item">
+                 <a href = "index.html" class = "site-brand">
+                     SiemReap<span>Travel</span>
+                 </a>
+                 <p class = "text">© រក្សាសិទ្ធគ្រប់យ៉ាងដោយ SiemReap Travel ឆ្នាំ២០២៤​ <br>
+                                    គោលការណ៍ភាពឯកជន I Privacy Policy <br>
+                                    អាសយដ្ឋាន​ <br>
+                                    ភូមិមិត្តភាព សង្កាត់ប៉ោយប៉ែត <br>ក្រុងប៉ោយប៉ែត ខេត្តបន្ទាយមានជ័យ</p>
+                 <p class="text2">© រក្សាសិទ្ធគ្រប់យ៉ាងដោយ SiemReap Travel ឆ្នាំ២០២៤</p>
+             </div>
+
+             <div class = "footer-item">
+                 <h2>Follow us on: </h2>
+                 <ul class = "social-links">
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-facebook-f"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-instagram"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-twitter"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-pinterest"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href = "#">
+                             <i class = "fab fa-google-plus"></i>
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+
+             <div class = "footer-item">
+                 <h2>Popular Places:</h2>
+                 <ul>
+                     <li><a href = "#">Siem Reap:Angkor Wat</a></li>
+                     <li><a href = "#">Siem Reap:Boeung Mealea</a></li>
+                     <li><a href = "#">Siem Reap:Ta Prom</a></li>
+                     <li><a href = "#">Siem Reap:Pub Street</a></li>
+                     <li><a href = "#">Siem Reap:Phnom Kulen</a></li>
+                     <li><a href = "#">Siem Reap:Kbal Spean</a></li>
+                 </ul>
+             </div>
+
+             <div class = "subscribe-form footer-item">
+                 <h2>Subscribe for Newsletter!</h2>
+                 <form class = "flex">
+                     <input type = "email" placeholder="Enter Email" class = "form-control">
+                     <input type = "submit" class = "btn" value = "Subscribe">
+                 </form>
+             </div>
+         </div>
+     </footer>
+     <!-- end of footer -->
+      <!--=============== SWIPER JS ===============-->
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.main.js"></script>
+      <script src="js/swiper-11.2.4.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.main.js"></script>
+      <!--=============== MAIN JS ===============-->
+      <script src="js/main.js"></script>
+   </body>
+</html>
